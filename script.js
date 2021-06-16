@@ -8,7 +8,7 @@ document.getElementById('button').addEventListener('click', calculate)
 function calculate () {
   number = document.getElementById('input').value
   number = parseInt(number)
-  PI = PI
+  PI = 3.14
   area = 0.25 * number ** 2 * PI
   circumference = PI * number
   document.getElementById('answer1').innerHTML = 'Area = ' + area
