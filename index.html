@@ -1,12 +1,36 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>Calculating a Circle</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <h1 class="calculatehead">Calculate the Area and Circumference of a Circle</h1>
+   <div id="seconddiv">
+    <h3 class="mainenter">Enter The Diameter of a Circle</h3>
+    <input id="input">
+    <button id="button">Calculate</button>
+    </div>
+    <div id="maindiv">
+        <div id="leftdiv">
+          <img src="areacircle.png" alt="areaofcircle">
+          <h2 class="ahead">Area of a Circle</h2>
+          <p class="desarea">Area = πr2</p>
+          <p id="answer1">Area = Answer</p>
+          <p id="meaning2">Meaning, the Area of the Circle is</p>
+        </div>
+        <div id="rightdiv">
+        <img src="circumpic.png" alt="circumferenceofcircle">
+        <h2 class="ahead">Circumference of a Circle</h2>
+          <p>Circumference = 2πr</p>
+          <p id="answer2">Circumference = Answer</p>
+          <p id="meaning1">Meaning, the Area of the Circle is</p>
+        </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>

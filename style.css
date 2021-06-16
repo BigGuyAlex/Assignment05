@@ -1,0 +1,52 @@
+body {
+  background-color: thistle;
+}
+
+.calculatehead {
+  text-align: center;
+}
+
+#maindiv {
+  width: 100%;
+}
+
+#leftdiv {
+  width: 50%;
+  height: 100px;
+  float: left;
+  background: whitesmoke;
+  border: solid;
+  border-color: aqua;
+}
+
+#leftdiv img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#rightdiv {
+  margin-left: 50%;
+  height: 100px;
+  background: whitesmoke;
+  border: solid;
+  border-color: mediumvioletred;
+}
+
+#rightdiv img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ahead {
+  text-align: center;
+}
+
+#seconddiv {
+  text-align: center;
+}
